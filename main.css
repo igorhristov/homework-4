@@ -1,0 +1,45 @@
+/* colors */
+:root {
+  --black: #2c3531;
+  --green: #116466;
+  --darkorange: #d0b000bc;
+  --lightorange: #ffcb9a;
+  --silver: #d1e8e2;
+}
+
+/* general style */
+body {
+  text-align: center;
+  background: var(--silver);
+}
+
+/* header style */
+header {
+  height: 100px;
+  background: var(--green);
+  color: var(--lightorange);
+}
+header h1 {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  text-transform: uppercase;
+}
+
+/* footer style */
+footer {
+  background: var(--black);
+  color: var(--silver);
+  height: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+footer p {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+footer p span {
+  color: var(--lightorange);
+}
