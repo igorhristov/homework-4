@@ -1,0 +1,27 @@
+
+.navbar ul {
+  background: var(--green);
+  list-style: none;
+  text-align: left;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: var(--silver);
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 4px solid var(--lightorange);
+  color: var(--lightorange);
+  font-weight: 700;
+}

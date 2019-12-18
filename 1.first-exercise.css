@@ -1,0 +1,89 @@
+section {
+  padding: 1.8rem 0;
+}
+/* main btn style */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 20px 11px;
+  box-shadow: 1px 1px 7px gray;
+}
+
+/* btn1 and btn2 style */
+.btn1 {
+  margin-top: 2rem;
+  background: rgb(66, 134, 245);
+  border-radius: 5px;
+  color: white;
+}
+
+.btn2 {
+  background: rgb(66, 134, 245);
+  border-radius: 30px;
+  color: white;
+}
+
+/* button 1 and 3 hover focus and active */
+.btn1:hover,
+.btn2:hover {
+  background: rgb(66, 134, 245, 0.7);
+}
+.btn1:focus,
+.btn2:focus {
+  background: rgba(25, 107, 240);
+}
+
+/* btn3 and btn4 style */
+.btn3,
+.btn4 {
+  border: 2px solid #4285f8;
+  color: #4285f8;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.btn4 {
+  border-radius: 50px;
+}
+
+/* btn3 and btn4 hover and focus */
+.btn3:hover,
+.btn4:hover {
+  transform: scale(1.1);
+}
+.btn3:focus,
+.btn4:focus {
+  transform: scale(1.1);
+}
+
+/* btn5 and btn6 style */
+.btn5,
+.btn6 {
+  background: rgba(25, 107, 240, 0.25);
+  color: rgb(25, 107, 240);
+  padding: 5px 12px;
+  border: 1px solid rgb(25, 107, 240);
+  border-radius: 3px;
+  transition: all 0.5s ease-out;
+}
+.btn6 {
+  border-radius: 50px;
+}
+
+/* btn5 and btn6 hover and focus style */
+
+.btn5:hover,
+.btn6:hover {
+  background: rgb(25, 107, 240);
+  color: #e5faf5;
+}
+.btn5:focus,
+.btn6:focus {
+  background: rgb(25, 107, 240);
+  color: #e5faf5;
+  box-shadow: none;
+}
+
+/* all btn active style */
+.btn:active {
+  font-weight: 700;
+}
